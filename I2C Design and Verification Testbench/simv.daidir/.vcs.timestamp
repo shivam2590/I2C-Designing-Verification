@@ -1,0 +1,65 @@
+0 
+27
++vcs+flush+all
++vcs+lic+wait
++warn=all
+-Mamsrun=
+-Masflags=--32
+-Mcc=gcc
+-Mcfl= -pipe -m32 -O -I/apps/vcsmx/vcs/Q-2020.03-SP1-1/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -m32 -m32 -rdynamic
+-Mobjects= /apps/vcsmx/vcs/Q-2020.03-SP1-1/linux/lib/libvirsim.so /apps/vcsmx/vcs/Q-2020.03-SP1-1/linux/lib/liberrorinf.so /apps/vcsmx/vcs/Q-2020.03-SP1-1/linux/lib/libsnpsmalloc.so /apps/vcsmx/vcs/Q-2020.03-SP1-1/linux/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/apps/vcsmx/vcs/Q-2020.03-SP1-1/linux/lib/vcs_save_restore_new.o
+-Msyslibs=/apps/vcsmx/vcs/Q-2020.03-SP1-1/linux/lib/ctype-stubs_32.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -m32 -I/apps/vcsmx/vcs/Q-2020.03-SP1-1/include
+-Mxllcflags=
+-gen_obj
+-picarchive
+-sverilog
+-timescale=1ns/1ns
+/apps/vcsmx/vcs/Q-2020.03-SP1-1/linux/bin/vcs1
+design.sv
+testbench.sv
+16
+container=lxc
+VMR_MODE_FLAG=32
+VCS_VERSION=Q-2020.03-SP1-1
+VCS_PATH=/apps/vcsmx/vcs/Q-2020.03-SP1-1//bin
+VCS_MX_HOME_INTERNAL=1
+VCS_HOME=/apps/vcsmx/vcs/Q-2020.03-SP1-1/
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux
+VCS_AMD_PURE32=1
+UNAME=/bin/uname
+TOOL_HOME=/apps/vcsmx/vcs/Q-2020.03-SP1-1/linux
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+OVA_UUM=0
+LC_ALL=C
+0
+10
+1641745402 interface.sv
+1641745402 test.sv
+1641745402 scoreboard.sv
+1641745402 monitor.sv
+1641745402 driver.sv
+1641745402 generator.sv
+1641745402 transaction.sv
+1641745402 environment.sv
+1641745402 testbench.sv
+1641745402 design.sv
+4
+1595215451 /apps/vcsmx/vcs/Q-2020.03-SP1-1/linux/lib/libvirsim.so
+1595215156 /apps/vcsmx/vcs/Q-2020.03-SP1-1/linux/lib/liberrorinf.so
+1595215126 /apps/vcsmx/vcs/Q-2020.03-SP1-1/linux/lib/libsnpsmalloc.so
+1595215316 /apps/vcsmx/vcs/Q-2020.03-SP1-1/linux/lib/libvfs.so
+1641745406 simv.daidir
+-1 partitionlib
